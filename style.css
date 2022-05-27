@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+@-ms-viewport {
+    width: device-width;
+}
+html {
+    box-sizing: border-box;
+}
+#sec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    background: tomato;
+    align-items: center;
+    justify-content: center;
+    padding: 15%;
+}
+
+#intro > h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+#intro > p{
+    font-size: larger;
+}
+#links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background:aquamarine;
+    position:sticky;
+    top: 0;
+    height: 80px;
+}
+
+#links a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 40px;
+}
+#sec2{
+    background-color:khaki;
+    padding-bottom: 100px;
+}
+#projects{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 40px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+     
+}
+.tiles {
+    width: 250px;
+    height: 250px;
+    padding: 0 0 0 0;
+    background-color: darkgray;
+}
+.icons a{
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    
+    background-color: gol;
+    height: 150px;    
+}
+.icons a{
+    margin-left: 30px;
+}
+.contact .icons{
+    padding-left: 50px;
+}
+
+.contact {
+    display: flex;
+    flex: 0 1 30%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: dodge;
+    height: 250px;
+}
+.contact h2{
+    padding-left: 80px;
+}
+.label{
+    display: none;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 0 1 40%;
+    background-color: ;
+    height: 250px;
+    
+}
+.form1 h2{
+    padding-left: 40px;
+}
+.conts1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: ;
+    height: 150px;
+}
+.conts1 > .field, .press {
+    padding-left: 40px;
+}
+.conts2{
+    display: flex;
+}
+.conts2 div{
+    margin-left: 40px;
+}
+
+#footer{
+    background-color: #f6f6f6;
+    padding-bottom: 15.5%;
+}
+#foot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
+    background-color: ;
+    height:400px;
+}
+#footer > #foot {
+    padding-top: 60px;
+}
+
+.fa-brands{
+    font-size:xx-large;
+}
+/*input[type="text"],
+input[type="email"],
+textarea {
+    border: none;
+    border-bottom: solid 1px #c9c9c9;
+    outline: 0;
+}*/
+
+
