@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#main-doc{
+  font-family: "Open San", Arial, sans-serif;
+  line-height: 1.5;
+  opacity: 0.7;
+  font-size: ;
+}
+
+#navbar{ 
+  position: fixed;
+  box-sizing: border-box;
+  border-right: 5px groove;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  height: 100%;
+ 
+}
+
+#sec{
+  position: absolute;
+  box-sizing: border-box;
+  margin: 0 0 0 290px;
+  padding: 0 15px 0 40px;
+}
+
+#navbar ul{
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0 40px 0 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+
+#navbar li{
+  border-top: 1px solid;
+  padding: 10px 0 10px 20px;
+  position: relative; 
+}
+.nav-link{
+  text-decoration: none;
+  margin: 0;
+  padding: 0px 0 0 0;
+  color: black;
+  display: block;
+}
+
+.code{
+  background-color: #dddddd;
+  padding: 15px 0 15px 10px;
+  margin: 10px 0 0 0;
+  display: block;
+  border-radius: 5px;
+
+}
+.indent{
+  margin: 0 0 0 30px;
+}
+
+@media (max-height: 100px) {
+  main{
+    font-size: 10px;
+  }
+}

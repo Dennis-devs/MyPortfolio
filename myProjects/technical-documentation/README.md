@@ -1,0 +1,1 @@
+This technical documentation page is a FreeCodeCamp project

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+#header-img{
+  width: 30%;
+  height: 30px;
+  float: left;
+}
+#header{
+  position: sticky;
+  background-color: #dddddd;
+  padding: 10px;
+  top: 0;
+  
+}
+.nav-link {
+ text-decoration: none;
+ padding: 50px;
+ color: black; 
+ float:;
+}
+#nav-bar{
+  top: 0;
+  float: ;
+  display: inline-block;
+  height: 50px;
+}
+#email{
+  width: 25%;
+  padding: 5px;
+}
+#submit{
+  background-color: #ffdb28;
+  padding: 5px;
+  width: 12%;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  transition-duration: 1s;
+}
+#submit:hover {
+  background-color: orange;
+}
+
+#sec{
+  margin: 0 20%;
+  line-height: 1;
+}
+.fontsizer{
+  font-size: 0.5em;
+}
+
+#video{
+  border: none;
+}
+@media (max-height: 100px) {
+  #main{font-size: 5px;}
+}
+
+.flexing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  grid-gap:20px;
+  margin: 80px 150px 100px 150px;
+  padding: 60px;
+  text-align: center;
+  line-height: 0.7;
+  box-sizing: border-box;
+}
+.item{
+  background-color: #ffdb30;
+  margin: 0px 0px 15px 0px;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 16px;
+} 
+#button:hover{
+  background-color: orange;
+  transition-duration: 2s;
+}
+
+
+
+.itemA{
+  border: 1px solid;
+}
+.itemB{
+  border: 1px solid;
+}
+.itemC{
+  border: 1px solid;
+}
+.item1{background: gray;
+}
+
+#main{
+  font-family: "Lato", sans-serif;
+}
+.styler1{
+  font-size: 16px;
+  line-height: 1.9;
+}
+.styler2{
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: lightgray;
+  padding: 20px;
+  margin: 0px;
+}
+.styler3{
+  font-size: 27px;
+}
+#footer {
+  text-align: right;
+  font-size: 15px;
+  background-color: lightgray;
+  margin: 0px 150px 0px 150px;
+  padding: 20px 20px 20px 0px
+}
+a:link{
+  text-decoration: none;
+  color: black; 
+}
+#footer a{
+    margin-right: 20px;
+}
