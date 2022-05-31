@@ -1,2 +1,2 @@
-MyPortfolio is a web page that illustrates my some of my work. 
+This ia My Portfolio site that illustrates my some of my work. 
 
