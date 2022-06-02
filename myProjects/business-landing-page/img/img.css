@@ -1,0 +1,13 @@
+div > p{
+    font-size: 40px;
+    color:greenyellow;
+    text-align: center;
+    word-spacing: 20px;
+}
+div{
+    height: 500px;
+    width: 500px;
+    background: url('trombone-1.png') left top repeat, url('trombone-2.png') right top repeat, url('wind-instruments.png') left bottom no-repeat;
+    background-size: 200px, 200px, 180px;
+    background-color: navy;
+}

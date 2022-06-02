@@ -1,0 +1,21 @@
+html{
+   background: linear-gradient(to right, rgba(255, 0, 0, 0), violet, gold, silver);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+p{
+    font-weight:600;
+    font-size: 60px;
+    letter-spacing:30px;
+    font-family: monospace;
+}
+div{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+
+}

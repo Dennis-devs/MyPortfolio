@@ -85,10 +85,42 @@ html {
     background-repeat: no-repeat;
 }
 .proj2{
+    background: url('./Images/Piano.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj3{
     background: url('./Images/Landing-page.png');
     background-size: 250px 250px;
     background-repeat: no-repeat;
 }
+.proj4{
+    background: url('./Images/Tribute-img.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj5{
+    background: url('./Images/Survey-form.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj6{
+    background: url('./Images/Trombone-sale.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj7{
+    background: url('./Images/Tech-doc.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj8{
+    background: url('./Images/portfolio-site.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+
+
 
 
 .icons a{
