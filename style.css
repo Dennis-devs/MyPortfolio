@@ -32,7 +32,6 @@ html {
 
 #intro > h1{
     font-family: 'Josefin Sans', sans-serif;
-    font-weight:;
     font-size: 30px;
 }
 
@@ -218,7 +217,6 @@ html {
 
 #footer{
     background-color: #f6f6f6;
-    padding-bottom: ;
     height: 100vh;
     display: flex;
     flex-direction: column;
