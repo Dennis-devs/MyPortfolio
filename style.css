@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Great+Vibes&family=Josefin+Sans:wght@600&family=Lato:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 
 }
 @-ms-viewport {
@@ -20,18 +22,28 @@ html {
 #intro{
     display: flex;
     flex-direction: column;
-    background: tomato;
+    background: url(../MyPortfolio/Images/balance2.jpg) no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     padding: 15%;
+    line-height: 50px;
 }
 
 #intro > h1{
-    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:;
+    font-size: 30px;
+}
+
+#intro > h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
     font-size: 30px;
 }
 #intro > p{
     font-size: larger;
+    font-weight: bold;
 }
 #links{
     display: flex;
@@ -63,10 +75,9 @@ html {
 }
 #projects{
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 60px;
-    justify-content: space-evenly;
+    justify-items: center;
     margin-top: 80px;
      
 }
@@ -79,42 +90,62 @@ html {
 .tile :hover{
     transform: scale(1.2);
 }
-.proj1{
-    background: url('./Images/rpc-icons.png');
+.proj12{
+    background: url('./Images/calculator.jpg');
     background-size: 250px 250px;
     background-repeat: no-repeat;
 }
-.proj2{
-    background: url('./Images/Piano.png');
+.proj11{
+    background: url('./Images/Sketch.jpg');
     background-size: 250px 250px;
     background-repeat: no-repeat;
 }
-.proj3{
-    background: url('./Images/Landing-page.png');
+.proj10{
+    background: url('./Images/Dash.png');
     background-size: 250px 250px;
     background-repeat: no-repeat;
 }
-.proj4{
-    background: url('./Images/Tribute-img.png');
-    background-size: 250px 250px;
-    background-repeat: no-repeat;
-}
-.proj5{
-    background: url('./Images/Survey-form.png');
-    background-size: 250px 250px;
-    background-repeat: no-repeat;
-}
-.proj6{
-    background: url('./Images/Trombone-sale.png');
-    background-size: 250px 250px;
-    background-repeat: no-repeat;
-}
-.proj7{
-    background: url('./Images/Tech-doc.png');
+.proj9{
+    background: url('./Images/Holidays.jpg');
     background-size: 250px 250px;
     background-repeat: no-repeat;
 }
 .proj8{
+    background: url('./Images/rpc-icons.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj7{
+    background: url('./Images/Piano.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj6{
+    background: url('./Images/Landing-page.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj5{
+    background: url('./Images/Tribute-img.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj4{
+    background: url('./Images/Survey-form.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj3{
+    background: url('./Images/Trombone-sale.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj2{
+    background: url('./Images/Tech-doc.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
+.proj1{
     background: url('./Images/portfolio-site.png');
     background-size: 250px 250px;
     background-repeat: no-repeat;
@@ -187,7 +218,11 @@ html {
 
 #footer{
     background-color: #f6f6f6;
-    padding-bottom: 15.5%;
+    padding-bottom: ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 #foot {
     display: flex;
@@ -197,6 +232,11 @@ html {
 #footer > #foot {
     padding-top: 60px;
 }
+#footer2 > p{
+    text-align: center;
+
+}
+
 
 .fa-brands{
     font-size:xx-large;
@@ -229,6 +269,5 @@ textarea{
     background-color: darkolivegreen;
     border: solid white;
 }
-
 
 
