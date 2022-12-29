@@ -52,6 +52,7 @@ html {
     position:sticky;
     top: 0;
     height: 80px;
+    z-index: 1;
 }
 
 #links a{
@@ -88,6 +89,12 @@ html {
 }
 .tile :hover{
     transform: scale(1.2);
+    z-index: 0;
+}
+.proj13{
+    background: url('./Images/quotes.jpg');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
 }
 .proj12{
     background: url('./Images/calculator.jpg');
