@@ -112,6 +112,11 @@
     z-index: 0;
 }
 
+.proj15{
+    background: url('./Images/Drum_Machine.jpg');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
 .proj14{
     background: url('./Images/markdwn3.jpg');
     background-size: 250px 250px;
