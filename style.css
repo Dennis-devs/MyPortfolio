@@ -112,6 +112,11 @@
     z-index: 0;
 }
 
+.proj16{
+    background: url('./Images/ReactCalc.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
 .proj15{
     background: url('./Images/Drum_Machine.jpg');
     background-size: 250px 250px;
