@@ -111,7 +111,11 @@
     transform: scale(1.2);
     z-index: 0;
 }
-
+.proj17{
+    background: url('./Images/25-plus-5.png');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
 .proj16{
     background: url('./Images/ReactCalc.png');
     background-size: 250px 250px;
