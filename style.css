@@ -111,6 +111,11 @@
     transform: scale(1.2);
     z-index: 0;
 }
+.proj18{
+    background: url('./Images/books.jpg');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
 .proj17{
     background: url('./Images/Clock.png');
     background-size: 250px 250px;
