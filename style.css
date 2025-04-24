@@ -6,8 +6,6 @@
     margin: 0px;
 
 }
-
-
 #sec {
     display: flex;
     flex-direction: column;
@@ -294,6 +292,12 @@
     justify-content: space-evenly;
     height:400px;
 }
+@media (max-width: 800px) {
+    #foot {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: ;
+    }
 #footer > #foot {
     padding-top: 60px;
 }
@@ -301,8 +305,6 @@
     text-align: center;
 
 }
-
-
 .fa-brands{
     font-size:xx-large;
 }
