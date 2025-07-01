@@ -117,6 +117,7 @@
     border-radius: 4px;
     width: 250px;
     height: 250px;
+    backdrop-filter: blur(0px);
 }
 
 .tile:hover .code{

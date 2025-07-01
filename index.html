@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/15eeb9cd5b.js" crossorigin="anonymous"></script>
     
 </head>
@@ -24,7 +25,16 @@
        </div>
        <main id="sec2">
            <div id="projects">
-               <div class="tile proj18"><a href="https://dennisdevs.pythonanywhere.com/" target="_blank" class="prac1"><div class="tiles"></div></a><a href="https://github.com/Dennis-devs/Library.git" target="_blank" class="code">CODE</a></div>
+               <div class="tile proj18" id="descriptor"><a href="https://dennisdevs.pythonanywhere.com/" target="_blank" class="prac1"><div class="tiles"></div></a><a href="https://github.com/Dennis-devs/Library.git" target="_blank" class="code">CODE</a></div>
+               <div id="tooltipContent" class="bg-info text-primary-emphasis bg-opacity-75 p-2 mb-2 d-none w-50 z-2 rounded-3"> 
+                <h1>Library Application</h1>
+                <p>This app allows you to save books you intend to read or purchase by listing them on your UI and saving them in a database.</p>
+                <span>Frontend: <li>JavaScript</li> <li>HTML5</li> <li>CSS3</li></span>
+                <span>Backend: <li>Python</li> <li>Flask</li></span>
+                <span>Tools: <li>ORM - SQLAlchemy</li><li>Templating tool - Jinja</li><li>Database - SQLite</li><li>DevTool - Vite</li></span>
+                <p>Usage: Click ADD BOOK, provide Book data by filling the form presented, then press SUBMIT</p>
+                <p>To open the application click the tile and to see the source code click CODE at the bottom of the tile</p>
+               </div>
                <div class="tile proj17"><a href="https://new-25-plus-5-clock.netlify.app/" target="_blank" class="prac1"><div class="tiles"></div></a><a href="https://github.com/Dennis-devs/25-Plus-5_Clock.git" target="_blank" class="code">CODE</a></div>
                <div class="tile proj16"><a href="https://newreact-calculator.netlify.app/" target="_blank" class="prac1"><div class="tiles"></div></a><a href="https://github.com/Dennis-devs/React_Calculator" target="_blank" class="code">CODE</a></div>
                <div class="tile proj15"><a href="https://dennis-devs.github.io/Drum_Machine/" target="_blank" class="prac1"><div class="tiles"></div></a><a href="https://github.com/Dennis-devs/Drum_Machine.git" target="_blank" class="code">CODE</a></div>
@@ -76,6 +86,8 @@
         
        </div>
     </div>
-    
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
