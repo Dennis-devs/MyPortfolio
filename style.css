@@ -127,6 +127,11 @@
     transform: scale(1.2);
     z-index: 0;
 }
+.proj19{
+    background: url('./Images/Scale.jpg');
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+}
 .proj18{
     background: url('./Images/books.jpg');
     background-size: 250px 250px;
